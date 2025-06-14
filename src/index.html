@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>Ayush Sinha - Portfolio</title>
+</head>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
+<body>
+    <main>
+        <div class="rounded-bl-[150px] bg-gradient-to-r from-purple-500 via-pink-400 to-pink-600 p-[1px]">
+            <header class="container my-12 text-white">
+                  <nav>
+                    <div class="flex items-center justify-between">                    
+                        <a href="#home" class="text-lg font-bold sm:text-xl lg:text-2xl xl:text-3xl">Ayush Sinha</a>
+                        <ul class="hidden md:flex items-center gap-4 text-lg lg:gap-16 lg:text-xl">
+                            <li><a class="hover:text-gray-300" href="#about">About</a></li>
+                            <li><a class="hover:text-gray-300" href="#Projects">Projects</a></li>
+                            <li><a class="hover:text-gray-300" href="#contact">Contact</a></li>
+                            <li>
+                                <button href="" class="rounded-full bg-white px-4 py-2 text-sm text-pink-500 shadow-lg shadow-pink-800 transition-all duration-300 ease-in-out hover:scale-125">
+                                    Download Resume
+                                </button>
+                            </li>
+                        </ul>
+
+                        <!-- Mobile Menu Button -->
+                        <button class="hover:scale-125 transition-all focus:outline-none md:hidden" onclick="toggleMenu()">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </nav>
+
+                <!-- Mobile Menu -->
+                <ul id="mobileMenu" class="md:hidden max-h-0 opacity-0 overflow-hidden transition-all duration-300 ease-in-out" onclick="toggleMenu()">
+                    <li><a onclick="toggleMenu" class="hover:text-gray-300 px-4 py-2" href="#about">About</a></li>
+                    <li><a onclick="toggleMenu" class="hover:text-gray-300 px-4 py-2" href="#projects">Projects</a></li>
+                    <li><a onclick="toggleMenu" class="hover:text-gray-300 px-4 py-2" href="#contact">Contact</a></li>
+                    <li>
+                        <button class="rounded-full bg-white px-4 py-2 text-sm text-pink-500 shadow-lg shadow-pink-800 transition-all duration-300 ease-in-out hover:scale-125">
+                            Download Resume
+                        </button>
+                    </li>
+                </ul>
+            </header>
+
+            <!-- Main Content -->
+            <section class="container my-24 text-center" >
+                <h1 class="mb-4 text-2xl md:text-3xl lg:text-5xl text-white">A Seasoned Frontend Engineer</h1>
+                <p class="mx-auto w-2/3 text-base text-gray-100 md:text-lg lg:text-xl">
+                    Welcome to my personal portfolio. I'm a passionate developer with a focus on creating engaging user experiences.
+                </p>
+                <div class="mx-auto my-10 flex max-w-80 flex-wrap justify-around gap-8">
+                    <a href="#contact" class="rounded-full bg-white px-4 py-2 font-medium text-pink-500 shadow-lg shadow-pink-800 transition-all duration-300 ease-in-out hover:scale-125">
+                        Hire Me
+                    </a>
+                    <a 
+                    href="#"
+                    target="_blank"
+                    class="rounded-full bg-white px-4 py-2 font-medium text-pink-500 shadow-lg shadow-pink-800 transition-all duration-300 ease-in-out hover:scale-125">
+                        Resume
+                    </a>
+                </div>
+            </section>
+        </div>
+        <section class="container py-24" >
+            <div class="mb-20 text-center">
+                <h2 class="mb-4 text-2xl font-medium md:text-3xl lg:text-4xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">What I Do</h2>
+                <p class=" mx-auto  bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent md:text-xl lg:w-3/4 xl:w-2/4">
+                    I specialize in crafting sleek , intuitive web applications 
+                    and 
+                    digital experiences. Here are a few technologies I've been 
+                    working
+                    with:
+                </p>
+            </div>
+            <div class="flex flex-wrap">
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> Javascript </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium">Bootstrap </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> HTML5 </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium">CSS3 </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium">Typescript </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> React </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium">NodeJS </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> Python </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> Flask </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> Django </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> Mysql </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="w-full p-4 sm:w-1/2 md:w-1/3 lg:w-1/4">
+                    <div class="group rounded-lg bg-gray-100 p-6 shadow-md">
+                        <h3 class="mb-4 text-lg font-medium"> Git </h3>
+                        <div class="h-2.5 w-full rounded-full bg-gray-200">
+                            <div class="h-2.5 w-3/5 rounded-full bg-gradient-to-r from-purple-500 to-pink-600 transition-all duration-300 ease-in-out group-hover:w-full">
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <section class="rounded-bl-[150px] rounded-tr-[150px] bg-gradient-to-r from-purple-500 to-pink-600 py-24 text-white">
+            <div class="container text-center" id="about">
+                <img src="../assests/WhatsApp Image 2025-06-14 at 09.47.43_4994a78b.jpg" class="mx-auto mb-10 w-1/3 rounded-full md:w-1/2 lg:w-1/4"  alt="Ayush Sinha">
+                <div class="mx-auto w-full lg:w-2/3">
+                <h2 class="mb-4 text-2xl font-medium md:text-3xl lg:text-4xl">About Me</h2>
+
+                <p class="mb-4 text-base md:text-xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel porro illo quis nisi adipisci, commodi molestiae, perferendis debitis provident asperiores dignissimos similique id velit a cupiditate maiores odit est iure ut voluptatibus. Debitis, voluptate veritatis libero ab officiis quia, fugit nam pariatur, qui laudantium ipsam repellendus voluptatem quod excepturi maxime.
+                </p>
+                <p class="mb-4 text-base md:text-xl">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias autem ducimus cum quasi doloribus consequuntur distinctio, laboriosam nobis et quod delectus rerum, iste esse possimus quaerat sit. Perspiciatis tempore dignissimos minima blanditiis perferendis ea, nam in exercitationem modi explicabo voluptates fugit iure commodi, provident laudantium velit excepturi maiores fugiat quae!
+
+                </p></div>
+
+            </div>
+
+        </section>
+
+        <section class="container py-24" id="Projects">
+             <div class="mb-20 text-center">
+                <h2 class="mb-4 text-2xl font-medium md:text-3xl lg:text-4xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">My Projects</h2>
+                <p class=" mx-auto  bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent md:text-xl lg:w-3/4 xl:w-2/4">
+                 Here are a few projects I've been working on. You can Check 
+                 them out 
+                 on Github.
+                </p>
+            </div>
+            <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finanace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+                <div class="shadow-lg flex flex-col justify-between rounded-lg bg-gray-100 p-6  text-center  hover:skew-x-6 transition-all duration-300 ease-in-out">
+
+                    <div class="space-y-4">
+                                <img src="../assests/" alt="project_1" class="mx-auto w-24 rounded-full sm:w-32 md:w-40 lg:w-48">
+                    <h3 class="text-xl font-semibold sm:text-2xl">
+                        personal Finace project 
+                    </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. A in harum repudiandae eius eligendi aut, officiis voluptas adipisci consectetur ex consequatur cupiditate dolores corrupti nihil.
+                    </p>
+                    <a href="#" class="bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-800">
+                        Live Preview
+                    </a>
+
+
+                    </div>
+            
+                </div>
+
+            </div>
+
+
+        </section>
+
+       <section class="rounded-bl-[150px] rounded-tr-[150px] bg-gradient-to-r from-purple-500 to-pink-600 py-24 text-white">
+  <div class="mx-auto max-w-[800px] flex flex-wrap justify-between gap-10 px-8">
+    
+    <!-- MOOCs -->
+    <div class="flex flex-col items-center justify-center gap-4">
+      <!-- Graduation Cap SVG -->
+      <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 14.25L7.5 11.625M12 14.25l4.5-2.625M12 14.25V19.5m7.5-8.25L12 3 4.5 11.25 12 14.25l7.5-3z"/>
+      </svg>
+      <h3 class="text-xl font-semibold sm:text-2xl">40+</h3>
+      <p class="text-base sm:text-xl">MOOC's</p>
+    </div>
+
+    <!-- Live Projects -->
+    <div class="flex flex-col items-center justify-center gap-4">
+      <!-- Tools/Wrench SVG -->
+      <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232a4 4 0 10-5.464 5.464L19.5 20.5l1.768-1.768L15.232 5.232z" />
+      </svg>
+      <h3 class="text-xl font-semibold sm:text-2xl">10+</h3>
+      <p class="text-base sm:text-xl">Live Projects</p>
+    </div>
+
+    <!-- Awards and Honours -->
+    <div class="flex flex-col items-center justify-center gap-4">
+      <!-- Trophy SVG -->
+      <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5h7.5m-7.5 0a3 3 0 00-3 3v2.25a4.5 4.5 0 003 4.243M8.25 4.5h7.5m0 0a3 3 0 013 3v2.25a4.5 4.5 0 01-3 4.243M12 14.25v4.5M9 20.25h6" />
+      </svg>
+      <h3 class="text-xl font-semibold sm:text-2xl">20+</h3>
+      <p class="text-base sm:text-xl">Awards and Honours</p>
+    </div>
+
+  </div>
+</section>
+
+ <section class="container py-24" id="contact">
+             <div class="mb-20 text-center">
+                <h2 class="mb-4 text-2xl font-medium md:text-3xl lg:text-4xl bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">Contact me </h2>
+                <p class=" mx-auto  bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent md:text-xl lg:w-3/4 xl:w-2/4">
+                Interested In collaborating or have an opportunity to discuss? Fill out the form below to get in touch !
+                </p>
+            </div>
+            <form action="" class="mx-auto max-w-lg" onsubmit="sendmessage(event)">
+                <div
+                class="mt-20 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+                <div class="sm:col-span-3">
+                    <label for="first-name" class="block text-lg font-medium">First Name</label>
+                    <input type="text"
+                    name="first-name"
+                    id="first-name"
+                    placeholder="Enter your First Name"
+                    required
+                    minlength="2"
+                    class="mt-2 block w-full rounded-md p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 invalid:text-red-600 focus:outline-none
+                    focus:ring-2 focus:ring-inset focus:ring-purple-700 focus:invalid:ring-red-500 sm:text-sm">
+
+                </div>
+                <div class="sm:col-span-3">
+                    <label for="last-name" class="block text-lg font-medium">Last name</label>
+                    <input type="text"
+                    name="last-name"
+                    id="last-name"
+                    placeholder="Enter your Last Name"
+                    required
+                    minlength="2"
+                    class="mt-2 block w-full rounded-md p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 invalid:text-red-600 focus:outline-none
+                    focus:ring-2 focus:ring-inset focus:ring-purple-700 focus:invalid:ring-red-500 sm:text-sm">
+
+                </div>
+
+                 <div class="sm:col-span-4">
+                    <label for="email" class="block text-lg font-medium">Email address</label>
+                    <input type="email"
+                    id="email"
+                    name="email"
+                   
+                    placeholder="Enter your eamil address"
+                    required
+                    minlength="2"
+                    class="mt-2 block w-full rounded-md p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 invalid:text-red-600 focus:outline-none
+                    focus:ring-2 focus:ring-inset focus:ring-purple-700 focus:invalid:ring-red-500 sm:text-sm">
+
+                </div>
+                <div class="sm:col-span-4">
+                    <label for="purpose-to-visit" class="block text-lg font-medium">purpose-to-connect</label>
+                    <select 
+                    id="purpose-to-visit"
+                    name="purpose-to-visit"
+                    required
+                  
+                    class="mt-2 block w-full rounded-md p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 invalid:text-red-600 focus:outline-none
+                    focus:ring-2 focus:ring-inset focus:ring-purple-700 focus:invalid:ring-red-500 sm:text-sm">
+                    <option value="Hiring Inquiry">Hire Me</option>
+                    <option value="collaboration Inquiry">collaborate</option>
+                    <option value="cofee Invitation"> Buy me a coffee</option>
+                    </select>
+
+                </div>
+               <div class="sm:col-span-full">
+                <label for="your-message" class="block text-lg font-medium"> what's on Your Mind?</label>
+                <textarea
+                 name="your-message" 
+                 id="your-message"
+                 rows="5"
+                 placeholder="Enter Your message here in minimum 40 characters ."
+                 required
+                 minlength="40"
+                  class="mt-2 block w-full rounded-md p-2 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 invalid:text-red-600 focus:outline-none
+                    focus:ring-2 focus:ring-inset focus:ring-purple-700 focus:invalid:ring-red-500 sm:text-sm">
+                </textarea>
+
+                 
+                 
+               </div>
+               <div class="sm:col-span-full">
+                <button
+                type="submit"
+                class="rounded-xl bg-white bg-gradient-to-r from-purple-500 to-pink-600 px-2 py-2 text-base text-white shadow-lg transition duration-300 hover:scale-125
+                hover:shadow-none sm:text-xl"> Let's Connect 
+
+                </button>
+
+               </div>
+
+                </div>
+            </form>
+</section>
+
+<footer class="rounded-tr-[150px] bg-gradient-to-r from-purple-500 via-pink-400 to-pink-600 py-10 text-white">
+
+    <div class="container">
+        <div class="w-full p-5">
+            <h3 class="mb-4 text-xl font-semibold md:text:2xl"> Follow Me 
+
+            </h3>
+
+            <div class="space-y-4">
+                <a href="https://github.com/AYU2027" class="block hover:text-gray-300">Github</a>
+                <a href="https://www.linkedin.com/in/ayush-s-a85b68299/" class="block hover:text-gray-300">LinkedIn</a>
+                <a href="https://leetcode.com/u/Ayu2027/" class="block hover:text-gray-300">Leetcode</a>
+
+            </div>
+
+        </div>
+        <div class="border-t border-gray-50 pt-5 text-center text-base md:text-xl">
+            &COPY; 2025 Ayush Sinha. All rights reserved.
+
+        </div>
+    </div>
+
+</footer>
+
+
+    </main>
+
+    <!-- Toggle Menu Functionality -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
